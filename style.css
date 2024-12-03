@@ -1,10 +1,11 @@
 body {
+  color: white;
   background-color: #1F2937;
   font-family: "Roboto", "Times New Roman", sans-serif;
   display: flex;
   flex-direction: column;
-  color: white;
-}
+  margin: 0;
+} 
 
 h1 {
   font-size: 24px;
@@ -14,11 +15,6 @@ h2 {
   font-size: 48px;
   font-weight: 900;
   margin: 0;
-}
-
-h1,
-h2 {
-  color: white;
 }
 
 p {
@@ -58,13 +54,13 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 80px;
 }
 
 .intro {
+  padding: 90px;
   display: flex;
-  justify-content: center;
-  gap: 100px;
+  justify-content: space-around;
+  gap: 40px;
 }
 
 .intro-text {
@@ -83,6 +79,46 @@ header {
   flex-shrink: 1;
 }
 
-.info-header {
+.info {
+  background-color: white;
+  padding: 30px 90px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0
+}
+
+.info h2 {
   color: #1F2937;
+  font-size: 36px;
+}
+
+.info p {
+  color: rgb(75, 75, 75);
+}
+
+.cards {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+}
+
+.cards p {
+  width: 150px;
+  text-align: center;
 }
