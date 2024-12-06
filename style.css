@@ -60,7 +60,7 @@ header {
   padding: 90px;
   display: flex;
   justify-content: space-around;
-  gap: 40px;
+  gap: 10px;
 }
 
 .intro-text {
@@ -71,12 +71,12 @@ header {
 }
 
 .placeholder {
+  text-align: center;
   background-color: gray;
   width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 1;
 }
 
 .info {
@@ -85,7 +85,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-shrink: 0
+  flex: 1 0 auto;
 }
 
 .info h2 {
@@ -121,4 +121,28 @@ header {
 .cards p {
   width: 150px;
   text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  width: 700px;
+}
+
+#source {
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 8px;
 }
